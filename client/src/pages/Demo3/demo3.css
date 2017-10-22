@@ -1,0 +1,9 @@
+.demoContainer {
+  min-height: 1100px;
+  padding: 30%;
+}
+
+h2.title {
+  color: crimson;
+  font-size: 4rem;
+}

@@ -1,0 +1,18 @@
+h1 {
+  color: #fff;
+  font-size: 6rem;
+}
+
+#demoContainer {
+  min-height: 1100px;
+  width: 100%;
+  background-color: mediumturquoise;
+}
+
+.titleWrap {
+  margin-top: 30%;
+  margin-right: 15%;
+  text-align: right;
+}
+
+

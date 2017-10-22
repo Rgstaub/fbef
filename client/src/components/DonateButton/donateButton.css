@@ -1,0 +1,10 @@
+#donateButton {
+  position: fixed;
+  top: 45px;
+  left: 30px;
+  background-color: mediumslateblue;
+  padding: 10px;
+  color: #fff;
+  font-size: 2rem;
+  box-shadow: 2px 2px 6px #777;
+}
