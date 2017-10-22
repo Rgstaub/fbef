@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Demo1 from "./pages/Demo1";
 import Demo2 from "./pages/Demo2";
 import Demo3 from "./pages/Demo3";
+import Demo4 from "./pages/Demo4";
+import Demo5 from "./pages/Demo5";
+import Demo6 from "./pages/Demo6";
+import Demo7 from "./pages/Demo7";
 import DonateButton from "./components/DonateButton";
 
 const App = () =>
@@ -12,6 +16,10 @@ const App = () =>
       <Demo1 />
       <Demo3 />
       <Demo2 />
+      <Demo4 />
+      <Demo5 />
+      <Demo6 />
+      <Demo7 />
       {/* <Switch>
         <Route exact path="/" component={} />
       </Switch> */}
