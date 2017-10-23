@@ -253,6 +253,10 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
+chain-function@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/chain-function/-/chain-function-1.0.0.tgz#0d4ab37e7e18ead0bdc47b920764118ce58733dc"
+
 chalk@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-0.5.1.tgz#663b3a648b68b55d04690d49167aa837858f2174"
@@ -273,7 +277,7 @@ chalk@^1.0.0, chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.1:
+chalk@^2.0.1, chalk@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.2.0.tgz#477b3bf2f9b8fd5ca9e429747e37f724ee7af240"
   dependencies:
@@ -295,6 +299,10 @@ chokidar@^1.7.0:
     readdirp "^2.0.0"
   optionalDependencies:
     fsevents "^1.0.0"
+
+classnames@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
 cli-boxes@^1.0.0:
   version "1.0.0"
@@ -392,6 +400,10 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
+core-js@^2.4.0:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -475,6 +487,10 @@ detect-file@^0.1.0:
   resolved "https://registry.yarnpkg.com/detect-file/-/detect-file-0.1.0.tgz#4935dedfd9488648e006b0129566e9386711ea63"
   dependencies:
     fs-exists-sync "^0.1.0"
+
+dom-helpers@^3.2.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.2.1.tgz#3203e07fed217bd1f424b019735582fc37b2825a"
 
 dot-prop@^4.1.0:
   version "4.2.0"
@@ -1062,6 +1078,10 @@ history@^4.7.2:
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
+
+hoist-non-react-statics@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
 hoist-non-react-statics@^2.3.0:
   version "2.3.1"
@@ -1947,6 +1967,14 @@ pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
+postcss@^6.0.13:
+  version "6.0.13"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.13.tgz#b9ecab4ee00c89db3ec931145bd9590bbf3f125f"
+  dependencies:
+    chalk "^2.1.0"
+    source-map "^0.6.1"
+    supports-color "^4.4.0"
+
 prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
@@ -1969,7 +1997,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4:
+prop-types@^15.5.4, prop-types@^15.5.6:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -2006,6 +2034,10 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
+ramda@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.23.0.tgz#ccd13fff73497a93974e3e86327bfd87bd6e8e2b"
+
 randomatic@^1.1.3:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-1.1.7.tgz#c7abe9cc8b87c0baa876b19fde83fd464797e38c"
@@ -2035,6 +2067,13 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-css-themr@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-css-themr/-/react-css-themr-2.1.2.tgz#e017514e471c232f43a754a55b49d81faf5dafb8"
+  dependencies:
+    hoist-non-react-statics "^1.2.0"
+    invariant "^2.2.1"
+
 react-router-dom@^4.1.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.2.2.tgz#c8a81df3adc58bba8a76782e946cbd4eae649b8d"
@@ -2056,6 +2095,37 @@ react-router@^4.2.0:
     loose-envify "^1.3.1"
     path-to-regexp "^1.7.0"
     prop-types "^15.5.4"
+    warning "^3.0.0"
+
+react-scroll-components@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-components/-/react-scroll-components-0.2.2.tgz#634df90ff1bcb09af9bc8f4f6d606a34721186cc"
+
+react-style-proptype@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-3.1.0.tgz#c8912fc13460f5b0c1ec1114c729d535b52b8073"
+  dependencies:
+    prop-types "^15.5.4"
+
+react-toolbox@^2.0.0-beta.12:
+  version "2.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/react-toolbox/-/react-toolbox-2.0.0-beta.12.tgz#1d9dd7cc41e3b35dabdce5eb100a8068eee88c45"
+  dependencies:
+    classnames "^2.2.5"
+    core-js "^2.4.0"
+    ramda "^0.23.0"
+    react-css-themr "^2.1.2"
+    react-style-proptype "^3.0.0"
+    react-transition-group "^1.1.3"
+
+react-transition-group@^1.1.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"
+  dependencies:
+    chain-function "^1.0.0"
+    dom-helpers "^3.2.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.5.6"
     warning "^3.0.0"
 
 readable-stream@2.2.7:
@@ -2320,6 +2390,10 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
+source-map@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+
 sparkles@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/sparkles/-/sparkles-1.0.0.tgz#1acbbfb592436d10bbe8f785b7cc6f82815012c3"
@@ -2438,7 +2512,7 @@ supports-color@^3.2.3:
   dependencies:
     has-flag "^1.0.0"
 
-supports-color@^4.0.0:
+supports-color@^4.0.0, supports-color@^4.4.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.5.0.tgz#be7a0de484dec5c5cddf8b3d59125044912f635b"
   dependencies:
