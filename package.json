@@ -9,7 +9,8 @@
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "node scripts/build.js",
     "seed": "node scripts/seedDB.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "toolbox": "react-toolbox-themr"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,26 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "mongoose": "^4.11.7",
-    "react-router-dom": "^4.1.2"
+    "postcss": "^6.0.13",
+    "react-router-dom": "^4.1.2",
+    "react-scroll-components": "^0.2.2",
+    "react-toolbox": "^2.0.0-beta.12"
+  },
+  "reactToolbox": {
+    "include": [
+      "BUTTON",
+      "DATE_PICKER",
+      "APPBAR",
+      "LINK",
+      "NAVIGATION"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "src/assets/react-toolbox"
   }
 }
