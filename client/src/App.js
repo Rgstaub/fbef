@@ -8,10 +8,17 @@ import Demo5 from "./pages/Demo5";
 import Demo6 from "./pages/Demo6";
 import Demo7 from "./pages/Demo7";
 import DonateButton from "./components/DonateButton";
+import NavbarHeader from "./components/NavbarHeader";
+import theme from './assets/react-toolbox/theme';
+import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
+import "./assets/react-toolbox/theme.css"
+
+
 
 const App = () =>
   <Router>
     <div>
+      <ThemeProvider theme={theme}><NavbarHeader /></ThemeProvider>
       <DonateButton />
       <Demo1 />
       <Demo3 />
